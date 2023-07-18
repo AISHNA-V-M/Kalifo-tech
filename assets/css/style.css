@@ -12,10 +12,12 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  background-color: #e6ecb5;
+  
 }
 
 a {
-  color: #5fcf80;
+  color: #142963;
   text-decoration: none;
 }
 
@@ -43,7 +45,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #5fcf80;
+  background: #ffe600;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -52,7 +54,7 @@ h6 {
 
 .back-to-top i {
   font-size: 28px;
-  color: #fff;
+  color: #001f9a;
   line-height: 0;
 }
 
@@ -580,11 +582,11 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #5fcf80;
+  color: #0335ff;
 }
 
 .about .content .learn-more-btn {
-  background: #5fcf80;
+  background: #160d63;
   color: #fff;
   border-radius: 50px;
   padding: 8px 25px 9px 25px;
@@ -1108,9 +1110,9 @@ section {
 
 .events .card-body {
   z-index: 10;
-  background: #fff;
+  background:#e6e5db;
   border-top: 4px solid #fff;
-  padding: 30px;
+  padding:10px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   margin-top: -60px;
   transition: 0.3s;
@@ -1140,7 +1142,7 @@ section {
 }
 
 .events .read-more a:hover {
-  color: #5fcf80;
+  color: #396ba4;
 }
 
 .events .card:hover img {
@@ -1148,11 +1150,11 @@ section {
 }
 
 .events .card:hover .card-body {
-  border-color: #5fcf80;
+  border-color: #fefe00;
 }
 
 .events .card:hover .card-body .card-title a {
-  color: #5fcf80;
+  color: #001f9a;
 }
 
 /*--------------------------------------------------------------
