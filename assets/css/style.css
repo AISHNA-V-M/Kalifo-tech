@@ -118,6 +118,7 @@ h6 {
 --------------------------------------------------------------*/
 #header {
   background: #ffffff;
+  
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
@@ -125,7 +126,7 @@ h6 {
   
 }
 #header div img{
-  width: 130px;
+  width: 250px;
 }
 
 #header .logo {
@@ -140,7 +141,7 @@ h6 {
 }
 
 #header .logo a {
-  color: #5fcf80;
+  color: #233b5a;
 }
 
 #header .logo img {
@@ -152,7 +153,7 @@ h6 {
 */
 .get-started-btn {
   margin-left: 22px;
-  background: #5fcf80;
+  background: #dfc905;
   color: #fff;
   border-radius: 50px;
   padding: 8px 25px;
@@ -163,7 +164,7 @@ h6 {
 }
 
 .get-started-btn:hover {
-  background: #3ac162;
+  background: #233b5a;
   color: #fff;
 }
 
@@ -204,16 +205,16 @@ h6 {
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-family: "Poppins", sans-serif;
-  font-size: 15px;
-  font-weight: 500;
-  color: #37423b;
+  font-size: 20px;
+  font-weight: 550;
+  color: #000000;
   white-space: nowrap;
   transition: 0.3s;
 }
 
 .navbar a i,
 .navbar a:focus i {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 0;
   margin-left: 5px;
 }
@@ -222,7 +223,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #5fcf80;
+  color: #294871;
 }
 
 .navbar .dropdown ul {
@@ -259,7 +260,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #5fcf80;
+  color: #233b5a;
 }
 
 .navbar .dropdown:hover>ul {
@@ -359,7 +360,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #5fcf80;
+  color: #233b5a;
 }
 
 .navbar-mobile .getstarted,
@@ -394,7 +395,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #5fcf80;
+  color: #233b5a;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -407,7 +408,7 @@ h6 {
 #hero {
   width: 100%;
   height: 110vh;
-  background: url("../img/istockphoto-960937636-612x612.jpg") top center;
+  background: url("../img/events-1.jpg") top center;
   background-size:100%;
   position: relative;
 }
@@ -462,8 +463,8 @@ h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #5fcf80;
-  border: 2px solid #5fcf80;
+  background: #ffe600;
+  border: 2px solid #050e5f;
 }
 
 @media (min-width: 1024px) {
