@@ -1283,11 +1283,11 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #5fcf80;
+  color: #ffe600;
   float: left;
   width: 44px;
   height: 44px;
-  background: #ecf9f0;
+  background: #030b2a;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1318,8 +1318,8 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #5fcf80;
-  color: #fff;
+  background: #ffe600;
+  color: #030b2a;
 }
 
 .contact .php-email-form {
@@ -1347,7 +1347,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: #030b2a;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1367,7 +1367,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #080c3f;
   border-top-color: #eee;
   animation: animate-loading 1s linear infinite;
 }
@@ -1381,7 +1381,7 @@ section {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #5fcf80;
+  border-color: #080c3f;
 }
 
 .contact .php-email-form input {
@@ -1393,7 +1393,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #5fcf80;
+  background: #080c3f;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1402,7 +1402,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #3ac162;
+  background: #ffe600;
 }
 
 @keyframes animate-loading {
